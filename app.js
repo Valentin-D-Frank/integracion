@@ -5,7 +5,7 @@ const mysql = require('mysql')
 const bodyParser = require('body-parser')
 const methodOverride = require('method-override')
 const cors = require('cors')
-const route = require('./routes')
+const route = require('./Desarrollo/SOE/Fuentes/routes')
 const app = express()
 
 app.use(bodyParser.urlencoded({ extended: true }))

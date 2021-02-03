@@ -1,4 +1,4 @@
-name: Integracion Continua con Node.js
+name: integracion continua con node.js
 
 on:
   pull_request:
